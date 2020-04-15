@@ -1,5 +1,5 @@
 {
-  "name": "prettus/l5-repository",
+  "name": "spobble/l5-repository",
   "description": "Laravel 5 - Repositories to  the database layer",
   "keywords": ["laravel", "repository", "eloquent", "model", "cache"],
   "license": "MIT",
@@ -11,6 +11,11 @@
       "role": "Developer"
     }
   ],
+  {
+    "replace": { 
+        "prettus/l5-repository": "self.version" 
+    } 
+}
   "homepage": "http://andersao.github.io/l5-repository",
   "support": {
     "email": "contato@andersonandra.de",
