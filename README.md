@@ -2,6 +2,13 @@
 
 Laravel 5 Repositories is used to abstract the data layer, making our application more flexible to maintain.
 
+### Very important!
+
+This fork fixes issue `Serialization of 'ReflectionProperty' is not allowed` with PHP 7.4 and it will be deleted when
+this bug is fixed on [official repository](https://github.com/andersao/l5-repository).
+
+All namespace will stay the same for total compatibility.
+
 [![Latest Stable Version](https://poser.pugx.org/prettus/l5-repository/v/stable)](https://packagist.org/packages/prettus/l5-repository) [![Total Downloads](https://poser.pugx.org/prettus/l5-repository/downloads)](https://packagist.org/packages/prettus/l5-repository) [![Latest Unstable Version](https://poser.pugx.org/prettus/l5-repository/v/unstable)](https://packagist.org/packages/prettus/l5-repository) [![License](https://poser.pugx.org/prettus/l5-repository/license)](https://packagist.org/packages/prettus/l5-repository)
 [![Analytics](https://ga-beacon.appspot.com/UA-61050740-1/l5-repository/readme)](https://packagist.org/packages/prettus/l5-repository)
 [![Code Climate](https://codeclimate.com/github/andersao/l5-repository/badges/gpa.svg)](https://codeclimate.com/github/andersao/l5-repository)
