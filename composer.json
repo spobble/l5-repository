@@ -15,7 +15,7 @@
     "replace": { 
         "prettus/l5-repository": "self.version" 
     } 
-}
+  },
   "homepage": "http://andersao.github.io/l5-repository",
   "support": {
     "email": "contato@andersonandra.de",
